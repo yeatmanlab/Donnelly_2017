@@ -12,8 +12,8 @@
 % Patrick Donnelly; University of Washington; August 8th, 2017
 %% Read in files
 % Make sure your present working directory is the Donnelly_2017 repo
-lmb_data = readtable('data\lmb_data.xlsx');
-sub_map = mapparse('data\lmb_config.xlsx'); %mapparse initialized container map object
+lmb_data = readtable('data/lmb_data.xlsx');
+sub_map = mapparse('data/lmb_config.xlsx'); %mapparse initialized container map object
 %% condense data table to necessary information
 int_group = sub_map('int_include'); % intervention group
 cntrl_group = sub_map('cntrl_dx'); % dx control group

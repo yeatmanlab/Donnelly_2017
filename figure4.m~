@@ -79,17 +79,17 @@ xlabel('IQ (WASI FS2)'); ylabel('Growth Rate (TOWRE)');
 
 subplot(3,3,7);
 scatter(discrep, rti_brs, 'MarkerFaceColor', ifsig(discrep, rti_brs)); lsline; 
-grid('on'); xlim([-10 50]); ylim([-2 12]); xticks([-10 0 10 20 30 40 50]);
+grid('on'); axis('tight'); 
 xlabel('IQ - BRS discrepancy'); ylabel('Growth Rate (BRS)');
 
 subplot(3,3,8);
 scatter(discrep, rti_rf, 'MarkerFaceColor', ifsig(discrep, rti_rf)); lsline; 
-grid('on'); xlim([-10 50]); ylim([-2 8]); xticks([-10 0 10 20 30 40 50]); 
+grid('on'); axis('tight'); 
 xlabel('IQ - BRS discrepancy'); ylabel('Growth Rate (RF)');
 
 subplot(3,3,9);
 scatter(discrep, rti_twre, 'MarkerFaceColor', ifsig(discrep, rti_twre)); lsline; 
-grid('on'); xlim([-10 50]); ylim([-2 8]); xticks([-10 0 10 20 30 40 50]);
+grid('on'); axis('tight'); 
 xlabel('IQ - BRS discrepancy'); ylabel('Growth Rate (TOWRE)');
 
 
