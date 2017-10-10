@@ -18,12 +18,14 @@ cd ~/git/Donnelly_2017
 - Add directory and subdirectories to search path
 ~~~~
 addpath(genpath('~/git/Donnelly_2017'))
-addpath(genpath('~/git/Donnelly_2017/helper'))
 ~~~~
-- Run preprocess.m
-- Run figure1.m
-- Run figure3.m
-- Run figure4.m
-- Run figure5.m
-- Run supp_fig1.m
-- Run supp_fig2.m
+Run the following functions
+~~~~
+- preprocess.m
+- figure1.m
+- figure3.m
+- figure4.m
+- figure5.m
+- supp_fig1.m
+- supp_fig2.m
+~~~~
