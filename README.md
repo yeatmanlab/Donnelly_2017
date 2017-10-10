@@ -20,11 +20,13 @@ cd ~/git/Donnelly_2017
 addpath(genpath('~/git/Donnelly_2017'))
 ~~~~
 - Run the following functions:
--- preprocess.m
--- figure1.m
--- figure3.m
--- figure4.m
--- figure5.m
--- supp_fig1.m
--- supp_fig2.m
+~~~~
+preprocess.m
+figure1.m
+figure3.m
+figure4.m
+figure5.m
+supp_fig1.m
+supp_fig2.m
+~~~~
 
