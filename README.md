@@ -1,5 +1,5 @@
-# Donnelly, Huber and Yeatman (2017)
-Code and data ato reproduce figures and analyses in Donnelly, Huber and Yeatman (2017)
+# Donnelly, Huber and Yeatman (2018)
+Code and data to reproduce figures and analyses in Donnelly, Huber and Yeatman (2017) and in the revision, Donnelly, Huber and Yeatman (2018)
 
 ## Reference
 Donnelly, Patrick M, Elizabeth Huber, and Jason D Yeatman. 2017. “Intensive Summer Intervention Drives Linear Growth of Reading Skill in Children with Dyslexia”. PsyArXiv. September 19. psyarxiv.com/jfpe3.
