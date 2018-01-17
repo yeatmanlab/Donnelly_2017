@@ -18,7 +18,7 @@ centered = zeros(numel(data(:, grp_loc)),1);
 for g = 1:numel(grp_unique)
    g_indx = find(grp_unique(g) == grp);
    for c = 1:length(g_indx)
-      centered(g_indx(c)) = col(g_indx(c)) - mean(col(g_indx));
+      centered(g_indx(c)) = col(g_indx(c)) - nanmean(col(g_indx));
    end
 end
 

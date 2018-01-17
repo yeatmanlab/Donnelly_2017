@@ -1,7 +1,7 @@
 %% Figure 1
-% function to create figure 1 from Donnelly, et al (2017)
+% function to create figure 1 from Donnelly, et al (2018)
 % prerequisites: run the preprocess.m function
-% Patrick Donnelly; University of Washington; August 8th, 2017
+% Patrick Donnelly; University of Washington; January 17th, 2018
 %% Figure 1a
 % Specify sessions of interest
 sessions = [0 1 2 3 4];
@@ -43,9 +43,9 @@ errorbar(sessions', rf_est, rf_se, '.k', 'Color', dmap(2,:), 'LineWidth', 2);
 errorbar(sessions', twre_est, twre_se, '.k', 'Color', dmap(3,:), 'LineWidth', 2);
 %Format Plot
 ax = gca;
-ax.XLim = [-0.1 4.1];
+ax.XLim = [-0.1 (max(sessions) + 0.1)];
 ax.YLim = [70 100];
-ax.XAxis.TickValues = [0 1 2 3 4];
+ax.XAxis.TickValues = sessions;
 xlabel('Session'); ylabel('Standard Score');
 title('Growth in Reading Skill');
 grid('on');

@@ -1,7 +1,7 @@
 %% Supplementary Figure 1
-% function to create supplementary figure 1 from Donnelly, et al (2017)
+% function to create supplementary figure 1 from Donnelly, et al (2018)
 % prerequisites: run the preprocess.m function
-% Patrick Donnelly; University of Washington; August 8th, 2017
+% Patrick Donnelly; University of Washington; January 17th, 2018
 
 % Specify sessions of interest
 sessions = [0 1 2 3 4];

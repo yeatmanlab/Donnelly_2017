@@ -1,8 +1,8 @@
 %% Supplementary Figure 2
 % creates a histogram of the linear effects across all measures for control
-% data
+% data for Donnelly, et al (2018)
 % prerequisites: preprocess.m
-% Patrick Donnelly; University of Washington; August 8th, 2017
+% Patrick Donnelly; University of Washington; January 17th, 2018
 
 
 % define measures, math measures were not collected for all control subs

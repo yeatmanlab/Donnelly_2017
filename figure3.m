@@ -1,7 +1,7 @@
 %% Figure 3a
 % creates histogram of quadratic effects of all measures using LME model
 % Prerequisites: preprocess.m
-% Patrick Donnelly; University of Washington; August 8th, 2017
+% Patrick Donnelly; University of Washington; January 17th, 2018
 for test = 1:length(names)
     quad_data(test, :) = table(stats(test).name, stats(test).lme_quad.Coefficients.Estimate(3), stats(test).lme_quad.Coefficients.SE(3));
     quad_data.Properties.VariableNames = {'test_name', 'growth', 'se'};
